@@ -15,7 +15,7 @@
 Người dùng đăng ký tài khoản tại một diễn đàn công nghệ nhỏ và đặt mật khẩu là `123456`. Đồng thời, người dùng tái sử dụng chính xác email và mật khẩu này cho các dịch vụ quan trọng khác như **Gmail**, **Facebook**, và **GitHub**.
 
 ### 1.2. Quy trình tấn công theo chuỗi
-1. **Bước 1 (Data Breach):** Diễn đàn nhỏ có hệ thống bảo mật kém, lưu trữ mật khẩu dưới dạng văn bản thuần (plain text) hoặc mã hóa băm yếu. Hacker xâm nhập thành công và thu thập toàn bộ cơ sở dữ liệu người dùng.
+1. **Bước 1 (Data Breach):** Diễn đàn nhỏ có hệ thống bảo mật kém, lưu trữ mật khẩu dưới dạng văn bản thuần (plain text) hoặc mã hóa yếu. Hacker xâm nhập thành công và thu thập toàn bộ cơ sở dữ liệu người dùng.
 2. **Bước 2 (Credential Stuffing):** Hacker sử dụng công cụ tự động hóa (Botnet) gửi liên tục các yêu cầu đăng nhập chứa cặp `Email + Mật khẩu` vừa trộm được lên các nền tảng lớn (Gmail, Facebook, GitHub,...).
 3. **Bước 3 (Hiệu ứng Domino):** Do thói quen dùng chung mật khẩu `123456`, hacker đăng nhập thành công vào Gmail. Từ Gmail, kẻ tấn công kích hoạt tính năng **Quên mật khẩu (Password Reset)** để chiếm quyền kiểm soát toàn bộ các dịch vụ trực tuyến khác liên kết với email này.
 
